@@ -1,5 +1,6 @@
+OpenCV installation on Windows for gcc/mingw/codeblocks
 
-1. we need to install 64bit Mingw as code blocks by Default installs 32bit.
+1.Firstly, we need to install 64bit Mingw as code blocks by Default installs 32bit.
  install it to C:\your_path\mingw64\
 
 2. Add the path C:\your_path\mingw64\bin\ to environment variable path.
@@ -48,7 +49,6 @@
  		C:\your_path\foo\install\include
 		C:\your_path\foo\install\include\opencv
 		C:\your_path\foo\install\include\opencv2
-
 		Image : search_directories.png
 
 	c ) Setting -> Compiler -> Search Directories -> Compiler:	Add
