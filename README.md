@@ -45,15 +45,13 @@
  		(so that any c/cpp program will be run by 64bit gcc and g++)
  		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cb_toolchain.png"target="_blank">cb_toolchain.png</a>
 
- * b. Setting -> Compiler -> Search Directories -> Compiler:	Add -->
-
+ * b. Setting -> Compiler -> Search Directories -> Compiler:	Add
  		C:\your_path\foo\install\include
 		C:\your_path\foo\install\include\opencv
 		C:\your_path\foo\install\include\opencv2
 		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/search_directories.png"target="_blank">search_directories.png</a>
 
-* c. Setting -> Compiler -> Search Directories -> Compiler:	Add -->
-
+* c. Setting -> Compiler -> Search Directories -> Compiler:	Add
 		C:\your_path\foo\install\x64\mingw\lib
 		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/Linker.png"target="_blank">Linker.png</a>
 
