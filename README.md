@@ -40,6 +40,7 @@
  <b>15.</b> That 'install' folder should contain folder include and X64 which contains files for MinGw.
 
  <b>16.</b> Now Open Code Blocks.
+
  	a. Setting -> Compiler -> Toolchain : Choose the installed minGw\bun path. and choose the corresponding exe from there.
  		(so that any c/cpp program will be run by 64bit gcc and g++)
  		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cb_toolchain.png"target="_blank">cb_toolchain.png</a>
