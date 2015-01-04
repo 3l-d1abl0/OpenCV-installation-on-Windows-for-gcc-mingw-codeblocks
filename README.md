@@ -20,7 +20,7 @@
   		i> 	Choose gcc from C:\your_path\mingw64\bin\ for C.
   		ii> Choose g++ from C:\your_path\mingw64\bin\ for C++
 
- <b>6.</b> Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cmake.png"target="_blank">cmake.png</a>
+ <b>6.</b> Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. <br>Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cmake.png"target="_blank">cmake.png</a>
 
  <b>7.</b> Now Click on BUILD. Check BUILD_EXAMPLES and BUILD_PACKAGE.
  <b>8.</b> Click on CMAKE. Type ‘foo’ in the CMAKE_BUILD_TYPE.
@@ -29,19 +29,19 @@
  <b>10.</b> Now Click on GENERATE.
 
 
- <b>11.</b> When its Complete,u r done with CMake close it and open folder foo. Shift+ Left Mouse Click anywhere inside and select ‘Open command window here’. Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/after_genrate.png"target="_blank">after_genrate.png</a>
+ <b>11.</b> When its Complete,u r done with CMake close it and open folder foo. Shift+ Left Mouse Click anywhere inside and select ‘Open command window here’. <br>Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/after_genrate.png"target="_blank">after_genrate.png</a>
 
  <b>12.</b>type “mingw32-make” on the terminal. Believe me it'll take a Hell Lot of time. You can Probably take a power nap. Enjoy ;)
 
  <b>13.</b> Now when you are awake type “mingw32-make install”. It won't take much time, no need for power Nap.
 
- <b>14.</b> After it is done. you couls see an new folder 'install' in the folder foo.	Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/after_install.png"target="_blank">after_install.png</a>
+ <b>14.</b> After it is done. you couls see an new folder 'install' in the folder foo.	<br>Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/after_install.png"target="_blank">after_install.png</a>
 
  <b>15.</b> That 'install' folder should contain folder include and X64 which contains files for MinGw.
 
  <b>16.</b> Now Open Code Blocks.
 
- * a. Setting -> Compiler -> Toolchain : Choose the installed minGw\bun path. and choose the corresponding exe from there.
+ * a. Setting -> Compiler -> Toolchain :<br> Choose the installed minGw\bun path. and choose the corresponding exe from there.
  		(so that any c/cpp program will be run by 64bit gcc and g++)<br>
  		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cb_toolchain.png"target="_blank">cb_toolchain.png</a>
 
