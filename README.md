@@ -42,22 +42,21 @@
  <b>16.</b> Now Open Code Blocks.
 
  * a. Setting -> Compiler -> Toolchain : Choose the installed minGw\bun path. and choose the corresponding exe from there.
- 		(so that any c/cpp program will be run by 64bit gcc and g++)
+ 		(so that any c/cpp program will be run by 64bit gcc and g++)<br>
  		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cb_toolchain.png"target="_blank">cb_toolchain.png</a>
 
- * b. Setting -> Compiler -> Search Directories -> Compiler:	Add
- 		C:\your_path\foo\install\include
-		C:\your_path\foo\install\include\opencv
-		C:\your_path\foo\install\include\opencv2
+ * b. Setting -> Compiler -> Search Directories -> Compiler:	Add<br>
+ 		C:\your_path\foo\install\include<br>
+		C:\your_path\foo\install\include\opencv<br>
+		C:\your_path\foo\install\include\opencv2<br>
 		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/search_directories.png"target="_blank">search_directories.png</a>
 
-* c. Setting -> Compiler -> Search Directories -> Compiler:	Add
-		C:\your_path\foo\install\x64\mingw\lib
+* c. Setting -> Compiler -> Search Directories -> Compiler:	Add<br>
+		C:\your_path\foo\install\x64\mingw\lib<br>
 		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/Linker.png"target="_blank">Linker.png</a>
 
-* d. Setting -> Compiler -> Linker Settings : Add -->
-
-		Add all .dll.a files from C:\your_path\foo\install\x64\mingw\lib
+* d. Setting -> Compiler -> Linker Settings : Add<br>
+		all .dll.a files from C:\your_path\foo\install\x64\mingw\lib<br>
 		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/lsetting.png"target="_blank">lsetting.png</a>
 
 <b>17.</b> Lastly add C:\your_path\foo\install\x64\mingw\bin to ur Environment Variable path.
