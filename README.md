@@ -29,13 +29,13 @@
  <b>10.</b> Now Click on GENERATE.
 
 
- <b>11.</b> When its Complete,u r done with CMake close it and open folder foo. Shift+ Left Mouse Click anywhere inside and select ‘Open command window here’. Image: after_genrate.png
+ <b>11.</b> When its Complete,u r done with CMake close it and open folder foo. Shift+ Left Mouse Click anywhere inside and select ‘Open command window here’. Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/after_genrate.png"target="_blank">after_genrate.png</a>
 
  <b>12.</b>type “mingw32-make” on the terminal. Believe me it'll take a Hell Lot of time. You can Probably take a power nap. Enjoy ;)
 
  <b>13.</b> Now when you are awake type “mingw32-make install”. It won't take much time, no need for power Nap.
 
- <b>14.</b> After it is done. you couls see an new folder 'install' in the folder foo.	Image: after_install.png
+ <b>14.</b> After it is done. you couls see an new folder 'install' in the folder foo.	Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/after_install.png"target="_blank">after_install.png</a>
 
  <b>15.</b> That 'install' folder should contain folder include and X64 which contains files for MinGw.
 
@@ -43,21 +43,21 @@
 
  	a ) Setting -> Compiler -> Toolchain : Choose the installed minGw\bun path. and choose the corresponding exe from there.
  		(so that any c/cpp program will be run by 64bit gcc and g++)
- 		Image: cb_toolchain.png
+ 		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cb_toolchain.png"target="_blank">cb_toolchain.png</a>
 
  	b ) Setting -> Compiler -> Search Directories -> Compiler:	Add
  		C:\your_path\foo\install\include
 		C:\your_path\foo\install\include\opencv
 		C:\your_path\foo\install\include\opencv2
-		Image : search_directories.png
+		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/search_directories.png"target="_blank">search_directories.png</a>
 
 	c ) Setting -> Compiler -> Search Directories -> Compiler:	Add
 		C:\your_path\foo\install\x64\mingw\lib
-		Image: Linker.png
+		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/Linker.png"target="_blank">Linker.png</a>
 
 	d ) Setting -> Compiler -> Linker Settings : Add
 		Add all .dll.a files from C:\your_path\foo\install\x64\mingw\lib
-		Image: lsetting.png
+		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/lsetting.png"target="_blank">lsetting.png</a>
 
 <b>17.</b> Lastly add C:\your_path\foo\install\x64\mingw\bin to ur Environment Variable path.
 
