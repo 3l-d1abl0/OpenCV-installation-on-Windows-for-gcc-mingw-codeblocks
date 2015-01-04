@@ -23,7 +23,9 @@
  <b>6.</b> Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. <br>Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cmake.png"target="_blank">cmake.png</a>
 
  <b>7.</b> Now Click on BUILD. Check BUILD_EXAMPLES and BUILD_PACKAGE.
+
  <b>8.</b> Click on CMAKE. Type ‘foo’ in the CMAKE_BUILD_TYPE.
+ 
  <b>9.</b> Go to INSTALL. Check on INSTALL_C_EXAMPLES and INSTALL_PYTHON_EXAMPLES.
 
  <b>10.</b> Now Click on GENERATE.
