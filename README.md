@@ -57,7 +57,7 @@
 
 	d. Setting -> Compiler -> Linker Settings : Add
 		Add all .dll.a files from C:\your_path\foo\install\x64\mingw\lib
-		Image: https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/lsetting.png
+		Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/lsetting.png"target="_blank">lsetting.png</a>
 
 <b>17.</b> Lastly add C:\your_path\foo\install\x64\mingw\bin to ur Environment Variable path.
 
