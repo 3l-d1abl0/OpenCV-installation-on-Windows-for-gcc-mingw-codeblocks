@@ -20,26 +20,26 @@
   		i> 	Choose gcc from C:\your_path\mingw64\bin\ for C.
   		ii> Choose g++ from C:\your_path\mingw64\bin\ for C++
 
- <b>6.</b> Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. Image: cmake.png
+ <b>6.</b> Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cmake.png"target="_blank">cmake.png</a>
 
- 7.Now Click on BUILD. Check BUILD_EXAMPLES and BUILD_PACKAGE.
- 8.Click on CMAKE. Type ‘foo’ in the CMAKE_BUILD_TYPE.
- 9.Go to INSTALL. Check on INSTALL_C_EXAMPLES and INSTALL_PYTHON_EXAMPLES.
+ <b>7.</b> Now Click on BUILD. Check BUILD_EXAMPLES and BUILD_PACKAGE.
+ <b>8.</b> Click on CMAKE. Type ‘foo’ in the CMAKE_BUILD_TYPE.
+ <b>9.</b> Go to INSTALL. Check on INSTALL_C_EXAMPLES and INSTALL_PYTHON_EXAMPLES.
 
- 10. Now Click on GENERATE.
+ <b>10.</b> Now Click on GENERATE.
 
 
- 11. When its Complete,u r done with CMake close it and open folder foo. Shift+ Left Mouse Click anywhere inside and select ‘Open command window here’. Image: after_genrate.png
+ <b>11.</b> When its Complete,u r done with CMake close it and open folder foo. Shift+ Left Mouse Click anywhere inside and select ‘Open command window here’. Image: after_genrate.png
 
- 12.type “mingw32-make” on the terminal. Believe me it'll take a Hell Lot of time. You can Probably take a power nap. Enjoy ;)
+ <b>12.</b>type “mingw32-make” on the terminal. Believe me it'll take a Hell Lot of time. You can Probably take a power nap. Enjoy ;)
 
- 13.Now when you are awake type “mingw32-make install”. It won't take much time, no need for power Nap.
+ <b>13.</b> Now when you are awake type “mingw32-make install”. It won't take much time, no need for power Nap.
 
- 14. After it is done. you couls see an new folder 'install' in the folder foo.	Image: after_install.png
+ <b>14.</b> After it is done. you couls see an new folder 'install' in the folder foo.	Image: after_install.png
 
- 15.that 'install' folder should contain folder include and X64 which contains files for MinGw.
+ <b>15.</b> That 'install' folder should contain folder include and X64 which contains files for MinGw.
 
- 16. Now Open Code Blocks.
+ <b>16.</b> Now Open Code Blocks.
 
  	a ) Setting -> Compiler -> Toolchain : Choose the installed minGw\bun path. and choose the corresponding exe from there.
  		(so that any c/cpp program will be run by 64bit gcc and g++)
@@ -59,9 +59,9 @@
 		Add all .dll.a files from C:\your_path\foo\install\x64\mingw\lib
 		Image: lsetting.png
 
-17. Lastly add C:\your_path\foo\install\x64\mingw\bin to ur Environment Variable path.
+<b>17.</b> Lastly add C:\your_path\foo\install\x64\mingw\bin to ur Environment Variable path.
 
-Now You are Done Everyting Should Work fine !
+Now You are Done and Everyting Should Work fine !
 
 
-Sameer Barha (El_Diablo)
+<b>Sameer Barha (El_Diablo)</b>
