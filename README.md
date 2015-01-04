@@ -3,24 +3,24 @@
 <b>1.</b> Firstly, we need to install 64bit Mingw as code blocks by Default installs 32bit.
  install it to C:\your_path\mingw64\
 
-2. Add the path C:\your_path\mingw64\bin\ to environment variable path.
+<b>2.</b> Add the path C:\your_path\mingw64\bin\ to environment variable path.
 
-3. Install CMake to C:\your_path\CMake\.
+<b>3.</b> Install CMake to C:\your_path\CMake\.
 	Again add the path C:\your_path\CMake\bin\ to environment variable path.
 
-4. Extract opencv (any version :D ) to C:\your_path\opencv\
+<b>4.</b> Extract opencv (any version :D ) to C:\your_path\opencv\
 	You will see to folders Builds and Sources.
  Or if you have download it from Github or version<4.3,
- there will be only one folder. Dont worry just the Sources.
+ there will be only one folder. Dont worry the just the Sources.
 
- 5. Now Open CMake:
+ <b>5.</b> Now Open CMake:
   a) Where is the source code: Choose the sources folder in opencv.
   b) Where to build the binaries:  C:\your_path\foo
   c) Click on Configure-> choose Specify native Compilers->
   		i> 	Choose gcc from C:\your_path\mingw64\bin\ for C.
   		ii> Choose g++ from C:\your_path\mingw64\bin\ for C++
 
- 6. Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. Image: cmake.png
+ <b>6.</b> Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. Image: cmake.png
 
  7.Now Click on BUILD. Check BUILD_EXAMPLES and BUILD_PACKAGE.
  8.Click on CMAKE. Type ‘foo’ in the CMAKE_BUILD_TYPE.
