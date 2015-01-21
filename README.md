@@ -11,7 +11,7 @@
 <b>4.</b> Extract opencv (any version :D ) to C:\your_path\opencv\
 	You will see to folders Builds and Sources.
  Or if you have download it from Github or version<4.3,
- there will be only one folder. Dont worry the just the Sources.
+ there will be only one folder. Dont worry its just the Sources Folder.
 
  <b>5.</b> Now Open CMake:
   a) Where is the source code: Choose the sources folder in opencv.
