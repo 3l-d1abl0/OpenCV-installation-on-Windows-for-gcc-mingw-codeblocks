@@ -14,11 +14,16 @@
  there will be only one folder. Dont worry its just the Sources Folder.
 
  <b>5.</b> Now Open CMake:
+
   a) Where is the source code: Choose the sources folder in opencv.
+
   b) Where to build the binaries:  C:\your_path\foo
+
   c) Click on Configure-> choose Specify native Compilers->
+
   		i> 	Choose gcc from C:\your_path\mingw64\bin\ for C.
-  		ii> Choose g++ from C:\your_path\mingw64\bin\ for C++
+
+  		ii> Choose g++ from C:\your_path\mingw64\bin\ for C++.
 
  <b>6.</b> Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. <br>Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cmake.png"target="_blank">cmake.png</a>
 
