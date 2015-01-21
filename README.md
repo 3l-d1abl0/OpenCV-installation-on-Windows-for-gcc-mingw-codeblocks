@@ -11,19 +11,14 @@
 <b>4.</b> Extract opencv (any version :D ) to C:\your_path\opencv\
 	You will see to folders Builds and Sources.
  Or if you have download it from Github or version<4.3,
- there will be only one folder. Dont worry that is just the Sources.
+ there will be only one folder. Dont worry the just the Sources.
 
- <b>5.</b> Now Open CMake:<br>
+ <b>5.</b> Now Open CMake:
   a) Where is the source code: Choose the sources folder in opencv.
-
   b) Where to build the binaries:  C:\your_path\foo
-  
   c) Click on Configure-> choose Specify native Compilers->
-
   		i> 	Choose gcc from C:\your_path\mingw64\bin\ for C.
-
-  		ii> Choose g++ from C:\your_path\mingw64\bin\ for C++.
-
+  		ii> Choose g++ from C:\your_path\mingw64\bin\ for C++
 
  <b>6.</b> Once the Configuring is done you could see Name-Value things colured in 'Red' below the Search Bar . Make sure you have checked 'Grouped'. <br>Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/cmake.png"target="_blank">cmake.png</a>
 
@@ -44,7 +39,7 @@
 
  <b>14.</b> After it is done. you couls see an new folder 'install' in the folder foo.	<br>Image: <a href="https://raw.githubusercontent.com/3l-d1abl0/OpenCV-installation-on-Windows-for-gcc-mingw-codeblocks/master/after_install.png"target="_blank">after_install.png</a>
 
- <b>15.</b> That 'install' folder should contain folder include and x64 which contains files for MinGw.
+ <b>15.</b> That 'install' folder should contain folder include and X64 which contains files for MinGw.
 
  <b>16.</b> Now Open Code Blocks.
 
